@@ -1,0 +1,78 @@
+/*
+  Name:Lucy Zhu
+  Date: 04.07.2020
+  Section: CSE 154 AP
+
+  This is the styles.css page for Creative Project 1.
+  It is used by all pages in my portfolio to give the site a consistent
+  look and feel.
+
+*/
+
+/*
+  Note: This body ruleset is to get you started
+*/
+body {
+  background-image: url('pinkclouds.jpg');
+  background-repeat: no-repeat;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+h1, h2, h3 {
+  color: rgb(233, 222, 222);
+  font-family: 'Indie Flower', cursive;
+  border: 2px;
+  background-color: rosybrown;
+  padding: 0.3em;
+}
+
+h1 {
+  color: pink;
+  font-size: 45pt;
+  padding: 0.5em;
+}
+
+section:first-child, footer, header {
+  text-align: center;
+}
+
+header {
+  color: palevioletred;
+  font-size: 30pt;
+  font-family: 'India Flower', cursive;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: 550px;
+  border: 0.5em solid white;
+  border-radius: 1em;
+}
+
+img {
+  height: 70%;
+}
+
+p, li {
+  color: white;
+}
+
+body li, p {
+  line-height: 20pt;
+}
+
+li img {
+  float: auto;
+  height: 15em;
+  padding: 1em;
+}
+
+footer {
+  color: salmon;
+}
